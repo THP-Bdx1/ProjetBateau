@@ -1,0 +1,30 @@
+.navbar_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 0.25;
+}
+
+.navbar_buttons button {
+    color: white;
+    background-color: black;
+    font-family: 'Merienda', cursive;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.navbar_buttons button:hover {
+    background-color: #ffffff;
+    color: black;
+    border-color: black;
+}
+
+.navbar_buttons button:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

@@ -1,0 +1,67 @@
+.team {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 100%;
+}
+
+.team img {
+    margin: auto;
+    border-radius: 50%;
+    width: 170px;
+    height: auto;
+}
+
+#column {
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.658);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Add some shadows to create a card effect */
+
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Some left and right padding inside the container */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+/* Clear floats */
+
+#title {
+    color: rgb(23, 2, 73);
+    font-weight: bold;
+}
+
+#description {
+    font-family: Merienda, cursive;
+    font-weight: bold;
+}
+
+#button {
+    bottom: 5px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+#button:hover {
+    background-color: #555;
+}

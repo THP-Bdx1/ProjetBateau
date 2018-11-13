@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Cabin+Sketch|Cedarville+Cursive|Finger+Paint|Fredericka+the+Great|Lemonada|Merienda" rel="stylesheet"> 
+    <title>UISprintDesign</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <header>
+  <%=render "layouts/navbar"%>
+  
+  </header>
+  <body>
+    <%= yield %>
+  </body>
+</html>
