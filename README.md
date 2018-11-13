@@ -5,7 +5,7 @@
 ---
 ## DISCLAIMER
 
-J'espère que vous aimez les musiques qui bouclent
+J'espère que vous aimez les musiques qui bouclent.
 Quand on arrive dans le pont, tout le monde [se met à l'aise](https://www.youtube.com/watch?v=mGgipFeAXg8).
 
 ---
